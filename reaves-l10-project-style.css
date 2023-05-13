@@ -1,0 +1,110 @@
+body {
+	background-color: Azure;
+	font-family: "Book Antiqua", Bookman, "Times New Roman";
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 960 px;
+}
+header {
+	background-color: DarkGrey;
+	color: DarkBlue;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 5px ;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	font-size: 125%;
+}
+a {
+	text-decoration: none;
+	color: DarkViolet;
+}
+img {
+	border: 5px solid DarkSlateGrey;
+	}
+h2 {
+    color: DarkTurquoise;
+}
+h3 {
+    color: DarkSlateBlue;
+}
+table, th, td {
+    border: 2px solid black;
+}
+thead {
+      background-color: Gainsboro;
+      color: DarkGreen;
+}
+tbody {
+     color: DarkBlue;
+}
+tfoot {
+     font-size: 75%;
+	 color: Crimson;
+}
+caption {
+	font-family: Garamond, Didot, "Times New Roman";
+    font-weight: bold;
+	font-size: 150%;
+	color: DarkSlateBlue;
+	border: 2px solid black;
+}
+legend {
+	background-color: Cornsilk;
+    color: Black;
+	font-family:  "Book Antiqua", Bookman, "Times New Roman";
+	margin: 15px;
+	font-size: 150%;
+}
+footer {
+	background-color: DarkGrey;
+	color: DarkBlue;
+    text-align: center;
+	padding: 5px;
+	clear: both;
+}	
+.return {
+       color: DarkBlue;
+	   font-size: 150%;
+	   padding: 10px
+}	   
+button {
+	font-size: 125%;
+	margin: 15px;
+	background-color: Cornsilk;
+}
+label {
+	display: block;
+}
+.date-table {
+	width: 48%;
+	float: left;
+	margin: 2px;
+	clear: both;
+}
+.cost-table {
+	width: 50%;
+	float: right;
+	margin-bottom: 40px;
+}
+figure, aside {
+	float: left;
+	width: 17%;
+	margin: 5px 5px 5px 0;
+	clear: both;
+}
+
+
+
+	
+
+
+
+
+
+

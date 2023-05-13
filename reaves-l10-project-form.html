@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Name: Thomas Reaves
+      Blackboard Username: treaves1
+      Filename: reaves-l10-project-form.html
+	  Class Section: 0005
+	  Purpose: to learn how to use position, box and display properties
+  -->	
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial scale=1.0">
+<link href="reaves-l10-project-style.css" type="text/css" rel="stylesheet" />
+<title>L10 Concert Event Form</title>
+</head>
+
+<div id="container">
+
+<header>
+  <h1>Calculate Event Cost</h1>
+    <p>There is a fee for each trasaction.  The fee is $1/ticket for 5 or fewer tickets and 50 cents/ticket for more than 5 tickets.</p>
+</header>
+
+<body>
+  <form id="form" action="reaves-project-code.php" method="post">
+    
+	<section class="userinfo">
+	  <h2>User Information</h2>
+	  <fieldset>
+	  <legend class="lb">Name and Phone Number</legend>
+		  <label>Name:</label>
+		  <input type="text" id="name" name="name"> 
+          <label>Phone Number:</label>
+          <input type="text" id="number" name="number">		
+      </fieldset>
+	</section>
+	
+	<section class="tickets">
+	  <h2>Tickets</h2>
+	  <fieldset>
+	  <legend class="lb">Adult and Child Tickets</legend>
+		  <label>How many adult tickets would you like?</label>
+		  <input type="number" id="adult-tickets" name="adult-tickets" min="1">
+          <label>How many child tickets would you like?</label>
+		  <input type="number" id="child-tickets" name="child-tickets">
+      </fieldset>
+	</section>
+    	
+	<section class="dates">	  
+      <h2>Dates</h2>
+	  <fieldset>
+	  <legend class="lb">Concert Date Desired</legend>
+		  <label>Choose a date:</label>
+		  <select name="date">
+		    <option value="Mar 2021">Mar 2021</option>
+			<option value="Apr 2021">Apr 2021</option>
+			<option value="May 2021">May 2021</option>
+		  </select>
+	  </fieldset>
+	</section>  
+     <button class="lb" type="submit" form="form">Submit</button>
+  </form>
+ </body> 
+  
+  <footer>
+    <a href="reaves-l10-project-lp.html" class= "return">Return to Main Page</a>
+  </footer>  
+ 
+ </div>
+</html>
